@@ -1,7 +1,6 @@
 import * as actionTypes from './actionTypes';
 import axios from '../../axios';
-import { API } from '../../env';
-
+const API = 'da62c9e3065978f374d0e28af9b5465f';
 
 const getMoviesStart = () => {
     return{
