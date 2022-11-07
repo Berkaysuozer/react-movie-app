@@ -43,14 +43,6 @@ const Header = props => {
                         </Button>
                     </form>
                 </div>
-                <div className='Header-Right-Container'>
-                    <Link margin={20} title='Github Repository' size={23} color='#414141' url='https://github.com/shoki61/react-movie-app'>
-                        <FaGithub/>
-                    </Link>
-                    <Link title='TMDB Website' url='https://www.themoviedb.org'>
-                        <img height='20' src={require('../../assets/referenceLogo.png').default} alt='TMDB'/>
-                    </Link>
-                </div>
             </div>
         );
 };
